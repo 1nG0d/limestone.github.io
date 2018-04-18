@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <title>Limestone.com.ua</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css"/>
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="libs/font-awesome/fontawesome-all.min.css"/>
+
     <link rel="stylesheet" href="css/style.css"/>
 
     <script src="js/jquery.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="libs/font-awesome/fa-v4-shims.min.js"></script>
+    <script src="libs/font-awesome/fontawesome-all.min.js"></script>
+
     <script src="js/script.js"></script>
 </head>
 <body id="main-wrapper">
@@ -14,23 +23,28 @@
     <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="limestone">
        <div id="brand">Ls</div>
     </a>
-
     <div class="navbar-nav-scroll">
         <ul class="navbar-nav bd-navbar-nav flex-row">
             <li class="nav-item">
-                <a class="nav-link active" href="/">Home</a>
+                <a class="nav-link active" href="/">Главная</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/" >link2</a>
+                <a class="nav-link " href="/" >Услуги</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/" >link3</a>
+                <a class="nav-link " href="/" >Преимущества</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/" >link4</a>
+                <a class="nav-link" href="/" >Где использовался</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">link5</a>
+                <a class="nav-link" href="/">Примеры</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">Почему мы?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/">Как мы работаем</a>
             </li>
         </ul>
     </div>
@@ -40,9 +54,12 @@
         <a href="tel:38(067)7121112" class="phone"> +38 (067) 712 11 12</a>
     </div>
 
-    <a class="btn btn-outline-warning text-center btn-large mb-3 mb-md-0 ml-md-3" href="">Заказать звонок</a>
+    <a class="btn btn-outline-warning text-center btn-large mb-3 mb-md-0 ml-md-3" href="/">Заказать звонок</a>
 </header>
 <div class="first">
+    <div class="special_offer">
+        Акция!
+    </div>
     <div class="container">
         <h1>Хотите дом из натурального камня ?</h1>
         <h2>Вам нужен строительный блок из украинского известняка!</h2>
@@ -64,11 +81,418 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="second">
+    <h2 class="black text-center">
+        Что мы предлагаем?
+    </h2>
+    <div class="container">
+        <div class="we_offer_first">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="offer_block">
+                        <h3>Блок фасадный</h3>
+                        <div class="type_size">
+                           <span class="ts_label">Типоразмер блока: </span>1
+                        </div>
+                        <div class="price">
+                            <span class="price_label">
+                                Цена:
+                            </span>100$
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="offer_block">
+                        <h3>Блок монтажный</h3>
+                        <div class="type_size">
+                            <span class="ts_label">Типоразмер блока: </span>2
+                        </div>
+                        <div class="price">
+                            <span class="price_label">
+                                Цена:
+                            </span>100$
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="offer_block">
+                        <h3>Парапет фундаментный</h3>
+                        <div class="type_size">
+                            <span class="ts_label">Типоразмер блока: </span>3
+                        </div>
+                        <div class="price">
+                            <span class="price_label">
+                                Цена:
+                            </span>100$
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="we_offer_second">
+            <h3>Три вида обработки фасадной части строительного блока из известняка.</h3>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <div class="offer_block">
+                        <img src="img/facing.jpg" alt="limestone.com.ua"/>
+                        <h3 class="title">Руст</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="offer_block">
+                        <img src="img/facing.jpg" alt="limestone.com.ua"/>
+                        <h3 class="title">Бучарда</h3>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center ">
+                    <div class="offer_block">
+                        <img src="img/facing.jpg" alt="limestone.com.ua"/>
+                        <h3 class="title">Шлифовка</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="we_offer_third">
+            <h3>Как это выглядит в разрезе стены дома?</h3>
+            <div class="row">
+                <div class="offset-2">
 
+                </div>
+                <div class="col-sm-8">
+                    <div id="owl-head" class="owl-carousel owl-theme">
+                        <div class="cut_down"><img src="img/career.jpg" alt="limestone.com.ua"/></div>
+                        <div class="cut_down"><img src="img/plate.jpg" alt="limestone.com.ua"/></div>
+                        <div class="cut_down"><img src="img/pyramid.jpg" alt="limestone.com.ua"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="order_button text-center">
+                        <button class="btn btn-warning text-center btn-large">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="third">
+    <h2 class="black_number text-center">
+        <p><span class="number">6</span> преимуществ известнякового строительного блока</p>
+    </h2>
+    <div class="container">
+        <div class="advantages">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="advantage">
+                        <div class="adv_img">1</div>
+                        <p>
+                            Известняк – натуральный, природный камень.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="advantage">
+                        <div class="adv_img">2</div>
+                        <p>
+                            Несущие способности камня, позволяют использовать известняк для многоэтажного строительства.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="advantage">
+                        <div class="adv_img">3</div>
+                        <p>
+                            Жаро- и морозостойкий камень с низкой теплопроводностью, т.е. тепло хорошо накапливается и сохраняется в доме.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="advantage">
+                        <div class="adv_img">4</div>
+                        <p>
+                            Материал «дышит», а значит дом «дышит», нет влажности в доме, а значит и плесени.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="advantage">
+                        <div class="adv_img">5</div>
+                        <p>
+                            Гипоаллергенный, экологичный и антисептик, не накапливает в себе радиацию и химические элементы.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="advantage">
+                        <div class="adv_img">6</div>
+                        <p>
+                            Фасадная сторона нашего известнякового блока уже с художественной обработкой,
+                            а значит, не требуется дополнительных расходов на отделку фасада.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </div>
-<div class="second"></div>
+<div class="fourth">
+    <h2 class="black text-center">
+        Мировая практика. Что строили из известняка?
+    </h2>
+    <div class="container">
+        <div class="world_practice">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="descr1">
+                        Интересные факты, проверенные временем:
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="wp_example">
+                        <img src="img/livadiyskiy_dvorets.jpg" alt=""/>
+                        <div class="wp_title">
+                            Ливадийский дворец в Крыму - 100 лет.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="wp_example">
+                        <img src="img/lviv.jpg" alt=""/>
+                        <div class="wp_title">
+                            Львов, старый город - 760 лет.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <p class="descr2">Из известняковых строительных блоков построены дворцы и замки, церкви, старинные дома и даже целые города</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="descr2">
+                       Блоки для строительства знаменитых Египетских пирамид были сделаны из известняка
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="wp_example">
+                        <img src="img/pyramid.jpg" alt=""/>
+                        <div class="wp_title">
+                            Египетские пирамиды - 4500 лет.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fifth">
+    <h2 class="black text-center">Планируете строить дом?</h2>
+    <div class="container">
+        <div class="examples">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>
+                        Стройте из известнякового блока, тогда Вы получите уникальный фасад и реализуете самые смелые архитектурные решения.
+                    </p>
+                    <div class="example_wrapper">
+                        <div class="example_block_1">
+                            <img src="img/house1.png" alt=""/>
+                        </div>
+                        <div class="example_block_2">
+                            <img src="img/house2.jpg" alt=""/>
+                        </div>
+                        <div class="example_block_3">
+                            <img src="img/house3.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="order_button text-center">
+                        <button class="btn btn-warning text-center btn-large">Хочу также</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sixth">
+    <h2 class="black_number text-center">
+        <p><span class="number">7</span> причин, почему именно мы </p>
 
+    </h2>
+    <div class="container">
+        <ul class="reasons">
+            <div class="row">
+                <div class="col-sm-12">
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <p>Свои промышленные станки-пилы.</p>
+                    </li>
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <p>Сырье непосредственно из карьера.</p>
+                    </li>
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <p>Со строительными блоками предлагаем другие изделия из известняка.</p>
+                    </li>
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <p>
+                            Мы способны реализовать в камне любой художественный замысел архитектора.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <p>Фасадная часть дома из «делового» камня, внутренняя часть стены «замковый» камень.</p>
+                    </li>
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <p>
+                            Наши каменщики имеют высокую квалификацию в работе с натуральным камнем и изделиями из известняка.
+                        </p>
+                    </li>
+                    <li>
+                        <i class="far fa-check-square"></i>
+                        <p>
+                            Качество материала соответствует требованиям европейского стандарта EN 1468:2003 IDT,
+                            украинского стандарта ДСТУ Б EN 1468:2007 и используется с требованиями ДБН В.1.4-1.01-97.
+                        </p>
+                    </li>
+
+
+
+
+                </div>
+             </div>
+        </ul>
+        <div class="order">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="order_button text-center">
+                        <button class="btn btn-warning text-center btn-large">Связвться с нами</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="provide">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="text-left">
+                        Обеспечим весь процесс производства от карьера до возведения стен Вашего дома.
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4"><p class="provide_img_title">Карьер</p></div>
+                <div class="col-sm-4"><p class="provide_img_title">Блок</p></div>
+                <div class="col-sm-4"><p class="provide_img_title">Дом</p></div>
+            </div>
+            <div class="provide_steps">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="provide_img">
+                            <img src="img/career.jpg" alt=""/>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="provide_img">
+                            <img src="img/plate.jpg" alt=""/>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="provide_img">
+                            <img src="img/house2.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="seventh">
+    <h2 class="black text-center">
+        Как мы работаем
+    </h2>
+    <div class="container">
+        <div class="how_we_work">
+          <div class="row">
+               <div class="col-sm-6">
+                   <div class="step">
+                       <div class="icon">
+                           <div class="num">1</div>
+                           <i class="fas fa-envelope"></i>
+                       </div>
+                       <p>
+                           Отправьте нам архитектурный раздел проекта Вашего дома.
+                       </p>
+                   </div>
+               </div>
+               <div class="col-sm-6">
+                   <div class="step">
+                       <div class="icon">
+                           <div class="num">2</div>
+                           <i class="fab fa-connectdevelop"></i>
+                       </div>
+                       <p>
+                           Мы создаем визуализацию фасада Вашего дома. Уточняем физические объемы на блок.
+                       </p>
+                   </div>
+               </div>
+        </div>
+          <div class="row">
+                <div class="col-sm-6">
+                    <div class="step">
+                        <div class="icon">
+                            <div class="num">3</div>
+                            <i class="fas fa-pen-square"></i>
+                        </div>
+                        <p>При встрече утверждаем чертежи и подписываем договор.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="step">
+                        <div class="icon">
+                            <div class="num">4</div>
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <p>Выполняем работы в срок и с должным качеством.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="order_button text-center">
+                        <button class="btn btn-warning text-center btn-large">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+
+</div>
 </body>
 </html>
