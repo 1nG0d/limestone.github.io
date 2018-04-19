@@ -15,48 +15,50 @@
     <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
     <script src="libs/font-awesome/fa-v4-shims.min.js"></script>
     <script src="libs/font-awesome/fontawesome-all.min.js"></script>
+    <script src="libs/PageScroll2id/PageScroll2id.min.js"></script>
+
 
     <script src="js/script.js"></script>
 </head>
 <body id="main-wrapper">
-<header class="navbar navbar-expand navbar-light flex-column flex-md-row bd-navbar">
+<header id="header" class="navbar navbar-expand navbar-light flex-column flex-md-row bd-navbar">
     <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="limestone">
-       <div id="brand">Ls</div>
+        <div class="brand">Ls</div>
     </a>
     <div class="navbar-nav-scroll">
         <ul class="navbar-nav bd-navbar-nav flex-row">
             <li class="nav-item">
-                <a class="nav-link active" href="/">Главная</a>
+                <a class="nav-link active" href="#first">Главная</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/" >Услуги</a>
+                <a class="nav-link " href="#second" >Услуги</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="/" >Преимущества</a>
+                <a class="nav-link " href="#third" >Преимущества</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/" >Где использовался</a>
+                <a class="nav-link" href="#fourth" >Где использовался</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">Примеры</a>
+                <a class="nav-link" href="#fifth">Примеры</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">Почему мы?</a>
+                <a class="nav-link" href="#sixth">Почему мы?</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">Как мы работаем</a>
+                <a class="nav-link" href="#seventh">Как мы работаем</a>
             </li>
         </ul>
     </div>
 
     <div class="flex-row ml-md-auto d-none d-md-flex">
-        <!--+ 38 (067) 712 11 12-->
         <a href="tel:38(067)7121112" class="phone"> +38 (067) 712 11 12</a>
     </div>
-
-    <a class="btn btn-outline-warning text-center btn-large mb-3 mb-md-0 ml-md-3" href="/">Заказать звонок</a>
+    <div class="order_button">
+        <button class="btn btn-outline-warning text-center btn-large mb-3 mb-md-0 ml-md-3">Заказать звонок</button>
+    </div>
 </header>
-<div class="first">
+<div id="first">
     <div class="special_offer">
         Акция!
     </div>
@@ -83,7 +85,7 @@
         </div>
     </div>
 </div>
-<div class="second">
+<div id="second">
     <h2 class="black text-center">
         Что мы предлагаем?
     </h2>
@@ -91,42 +93,48 @@
         <div class="we_offer_first">
             <div class="row">
                 <div class="col-sm-4">
+                    <h3 class="text-center">Блок фасадный</h3>
                     <div class="offer_block">
-                        <h3>Блок фасадный</h3>
-                        <div class="type_size">
-                           <span class="ts_label">Типоразмер блока: </span>1
-                        </div>
-                        <div class="price">
-                            <span class="price_label">
-                                Цена:
-                            </span>100$
-                        </div>
+                        <div class="yellow_box"></div>
+                        <img src="img/plate.jpg" alt=""/>
+                    </div>
+                    <div class="type_size">
+                        <span class="ts_label">Типоразмер блока: </span>1
+                    </div>
+                    <div class="price">
+                        <span class="price_label">
+                        Цена:
+                        </span>100$
                     </div>
                 </div>
                 <div class="col-sm-4">
+                    <h3 class="text-center">Блок монтажный</h3>
                     <div class="offer_block">
-                        <h3>Блок монтажный</h3>
-                        <div class="type_size">
-                            <span class="ts_label">Типоразмер блока: </span>2
-                        </div>
-                        <div class="price">
-                            <span class="price_label">
-                                Цена:
-                            </span>100$
-                        </div>
+                        <div class="yellow_box"></div>
+                        <img src="img/plate.jpg" alt=""/>
+                    </div>
+                    <div class="type_size">
+                        <span class="ts_label">Типоразмер блока: </span>1
+                    </div>
+                    <div class="price">
+                        <span class="price_label">
+                        Цена:
+                        </span>100$
                     </div>
                 </div>
                 <div class="col-sm-4">
+                    <h3 class="text-center">Парапет фундаментный</h3>
                     <div class="offer_block">
-                        <h3>Парапет фундаментный</h3>
-                        <div class="type_size">
-                            <span class="ts_label">Типоразмер блока: </span>3
-                        </div>
-                        <div class="price">
-                            <span class="price_label">
-                                Цена:
-                            </span>100$
-                        </div>
+                        <div class="yellow_box"></div>
+                        <img src="img/plate.jpg" alt=""/>
+                    </div>
+                    <div class="type_size">
+                        <span class="ts_label">Типоразмер блока: </span>1
+                    </div>
+                    <div class="price">
+                        <span class="price_label">
+                        Цена:
+                        </span>100$
                     </div>
                 </div>
             </div>
@@ -180,7 +188,7 @@
         </div>
     </div>
 </div>
-<div class="third">
+<div id="third">
     <h2 class="black_number text-center">
         <p><span class="number">6</span> преимуществ известнякового строительного блока</p>
     </h2>
@@ -245,7 +253,7 @@
 
     </div>
 </div>
-<div class="fourth">
+<div id="fourth">
     <h2 class="black text-center">
         Мировая практика. Что строили из известняка?
     </h2>
@@ -297,7 +305,7 @@
         </div>
     </div>
 </div>
-<div class="fifth">
+<div id="fifth">
     <h2 class="black text-center">Планируете строить дом?</h2>
     <div class="container">
         <div class="examples">
@@ -331,7 +339,7 @@
         </div>
     </div>
 </div>
-<div class="sixth">
+<div id="sixth">
     <h2 class="black_number text-center">
         <p><span class="number">7</span> причин, почему именно мы </p>
 
@@ -429,7 +437,7 @@
     </div>
 
 </div>
-<div class="seventh">
+<div id="seventh">
     <h2 class="black text-center">
         Как мы работаем
     </h2>
@@ -492,6 +500,74 @@
     </div>
 </div>
 <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="footer_wrapper text-center">
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="footer_wrapper text-center">
+                    <adress>
+                        <p>
+                            <a href="mailto:office@uns.kiev.ua">office@uns.kiev.ua</a>
+                        </p>
+                        <p class="adress mb-0">Украина, Киев, ул. Cемьи Хохловых, 8</p>
+
+                    </adress>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="footer_wrapper text-center">
+
+                    <p>
+                        <a href="tel:38(063)7121112" class="phone">+38 (067) 712 11 12</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="tel:38(044)3327401" class="phone">+38 (044) 332 74 01</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="display:none">
+    <form id="order_form" method="post" action="mail.php">
+        <p>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" size="30" autocomplete="off" placeholder="Ваше Имя" required/>
+        </p>
+        <p>
+            <label for="phone_number"></label>
+            <input type="tel" id="phone_number" name="phone_number" size="30" placeholder="+38 (0XX) XXX-XX-XX" required/>
+        </p>
+        <p>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" size="30" placeholder="E-mail" required/>
+        </p>
+        <p class="text-center">
+            <button id="submit_button" type="button" class="btn btn-outline-secondary btn-large">Отправить</button>
+        </p>
+    </form>
+</div>
+<div style="display: none;">
+    <div id="special_offer">
+        <h3>АКЦИЯ!</h3>
+         <p>Купите Х м3 строительного блока из известняка до 10.05.2018 и получите дверной обклад в подарок.</p>
+        <div class="order_button text-center">
+            <button class="btn btn-warning text-center btn-large">Заказать</button>
+        </div>
+    </div>
+
+</div>
+<div style="display: block;">
+    <div id="order_thanks">
+        <h3>
+            Благодарим за Вашу заявку, мы свяжемся с Вами в течение 1 часа.
+        </h3>
+
+    </div>
 
 </div>
 </body>
